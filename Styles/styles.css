@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info,
+.work-info,
+.skills-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-details {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+
+.profile-image {
+    flex-basis: 30%;
+}
+
+.profile-image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.company,
+.role,
+.experience {
+    flex-basis: 30%;
+}
+
+.programming-languages,
+.languages {
+    flex-basis: 45%;
+}
+
+.skills-info ul,
+.languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-info h2,
+.languages h2 {
+    margin-top: 20px;
+}
+
+.skills-info input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.skills-info input[type="radio"]:checked {
+    background-color: #000;
+}
