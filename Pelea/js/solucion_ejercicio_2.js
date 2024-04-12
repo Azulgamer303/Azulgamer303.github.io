@@ -70,6 +70,8 @@ document.addEventListener("keydown", function (event) {
     if (enemy.health > 0) {
       enemy.attack(hero);
       heroelife.value = ((hero.health * 100) / hero.maxhealth);
+    } else {
+      window.alert("El Enemigo ya perdio");
     }
   }
 })
