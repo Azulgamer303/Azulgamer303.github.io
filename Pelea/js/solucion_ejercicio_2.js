@@ -26,38 +26,6 @@ class Character {
   }
 }
 
-//Función para combatir
-/*function fight(firstCharacter, secondCharacter) {
-  console.log("Empieza el combate!");
-  console.log(hero.status());
-  console.log(enemy.status());
-  while (true) {
-
-    //Primer personaje ataca si esta vivo
-    if (firstCharacter.isAlive()) {
-      firstCharacter.attack(secondCharacter);
-      slimelife.value-=40;
-      console.log(hero.status());
-      console.log(enemy.status());
-    } else {
-      console.log(`${firstCharacter.name} died!`);
-      break;
-    }
-
-    //Segundo personaje ataca si esta vivo
-    if (secondCharacter.isAlive()) {
-      secondCharacter.attack(firstCharacter);
-      heroelife.value-=110;
-      console.log(hero.status());
-      console.log(enemy.status());
-    } else {
-      console.log(`${secondCharacter.name} died!`);
-      break;
-    }
-  }
-}
-*/
-
 document.addEventListener("keydown", function (event) {
   if (event.key === "x") {
     if (hero.health > 0) {

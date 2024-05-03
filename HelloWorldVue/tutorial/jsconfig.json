@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["tutorial/src/*"]
+    }
+  },
+  "exclude": ["tutorial/node_modules", "dist"]
+}
