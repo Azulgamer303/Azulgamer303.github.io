@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["tutorial/src/*"]
+      "@/*": ["./tutorial/src/*"]
     }
   },
   "exclude": ["tutorial/node_modules", "dist"]
