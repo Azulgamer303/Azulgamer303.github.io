@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <ComponentePadre />
+    <Base />
   </div>
 </template>
 
 <script>
-import ComponentePadre from './components/ComponentePadre.vue';
+import Base from './components/Base.vue';
 
 export default {
   name: 'App',
   components: {
-    ComponentePadre
+    Base
   }
 }
 </script>
